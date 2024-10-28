@@ -403,7 +403,7 @@ agent = ReActAgent.from_tools(
     messages=[system_prompt] 
 )
 
-if prompt := st.chat_input("Ask about cryptocoins?"):
+if prompt := st.chat_input("Ask about financial data related to stocks now it is supporting only us stocks"):
     st.chat_message("user").markdown(prompt)
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
