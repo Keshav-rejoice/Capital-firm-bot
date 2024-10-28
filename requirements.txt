@@ -1,7 +1,10 @@
 matplotlib
+requests
+tiktoken
 streamlit
 llama-index
 llama-agents
+beautifulsoup4
 pinecone
 llama-index-vector-stores-pinecone
 yfinance
