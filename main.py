@@ -1,6 +1,9 @@
 import requests
 import pandas as pd
 import yfinance as yf
+import nltk
+nitk.download('punkt')
+
 from llama_index.core.agent import FunctionCallingAgentWorker
 from llama_index.llms.openai import OpenAI
 from llama_index.core.tools.function_tool import FunctionTool
