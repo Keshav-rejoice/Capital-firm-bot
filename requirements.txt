@@ -1,0 +1,10 @@
+matplotlib
+streamlit
+llama-index
+llama-agents
+pinecone
+llama-index-vector-stores-pinecone
+yfinance
+openai
+pymupdf
+datetime
